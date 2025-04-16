@@ -1,0 +1,32 @@
+# === Node.js backend ===
+node_modules/
+logs
+*.log
+npm-debug.log*
+.env
+.vscode/
+dist/
+build/
+
+# === Next.js frontend ===
+frontend/.next/
+frontend/node_modules/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/out/
+
+# === OS and Editor Junk ===
+.DS_Store
+Thumbs.db
+
+# === Coverage & Testing ===
+coverage/
+*.lcov
+
+# === Optional: IDE-specific folders ===
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
